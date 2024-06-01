@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .highlight {
+            color: #c19a6b;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container label {
+            margin-top: 10px;
+        }
+        .form-container input, .form-container textarea {
+            padding: 10px;
+            margin-top: 5px;
+        }
+        .form-container button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #575757;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Seu Nome</h1>
+    <p class="highlight">Transformando vidas através de negócios imobiliários bem sucedidos</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#blog">Blog</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="inicio">
+    <h2>Página Inicial</h2>
+    <p><strong>Atenção:</strong> Está buscando imóveis de alto padrão em Balneário Camboriú e região?</p>
+    <p><strong>Interesse:</strong> Com anos de experiência no mercado imobiliário, oferecemos as melhores oportunidades para você.</p>
+    <p><strong>Desejo:</strong> Imagine viver em um lugar onde qualidade de vida e luxo se encontram.</p>
+    <p><strong>Ação:</strong> Entre em contato conosco e transforme seu sonho em realidade!</p>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Troquei o administrativo pelo comercial e agora encontrei a minha missão, que é transformar a vida das pessoas através de negócios imobiliários bem sucedidos.</p>
+    <p>Formada em ciências contábeis, pós graduada em gestão de negócios, controladoria e finanças, me apaixonei pelo mercado imobiliário, hoje sou corretora de imóveis e Gestora comercial na <span class="highlight">My Broker Imobiliária</span>.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="gallery">
+        <img src="link-da-imagem1.jpg" alt="Produto 1">
+        <img src="link-da-imagem2.jpg" alt="Produto 2">
+        <img src="link-da-imagem3.jpg" alt="Produto 3">
+    </div>
+    <p>Produtos da prateleira imobiliária de Balneário Camboriú e região.</p>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Artigos relacionados ao mercado imobiliário, investimentos financeiros e oportunidades de negócio.</p>
+    <div class="blog-posts">
+        <article>
+            <h3>Título do Artigo 1</h3>
+            <p>Resumo do artigo...</p>
+            <a href="#">Leia mais</a>
+        </article>
+        <article>
+            <h3>Título do Artigo 2</h3>
+            <p>Resumo do artigo...</p>
+            <a href="#">Leia mais</a>
+        </article>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="form-container">
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <p>Whatsapp: (XX) XXXX-XXXX</p>
+    <p>Endereço: My Broker Imobiliária, Balneário Camboriú</p>
+    <p>Email: seuemail@exemplo.com</p>
+    <p>
+        <a href="https://facebook.com/seuperfil" target="_blank">Facebook</a> |
+        <a href="https://linkedin.com/in/seuperfil" target="_blank">LinkedIn</a> |
+        <a href="https://instagram.com/seuperfil" target="_blank">Instagram</a>
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
